@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -O3 -funroll-loops -msse3 -g   CMakeFiles/mpi_practice.dir/mpi_practice.cxx.o -o ../bin/mpi_practice  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so -L/usr/lib/x86_64-linux-gnu  -lSDL2 

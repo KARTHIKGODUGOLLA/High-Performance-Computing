@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -O3 -funroll-loops -msse3 -g   CMakeFiles/heat_diffusion_bonus.dir/heat_diffusion_bonus.cxx.o -o ../bin/heat_diffusion_bonus  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so -L/usr/lib/x86_64-linux-gnu  -lSDL2 

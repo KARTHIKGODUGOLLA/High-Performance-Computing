@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_distance_function.dir/test_distance_function.cxx.o CMakeFiles/test_distance_function.dir/test_common.cxx.o -o ../bin/test_distance_function  ../lib/libsom.a 

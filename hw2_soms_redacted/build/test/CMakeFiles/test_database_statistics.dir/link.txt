@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_database_statistics.dir/test_database_statistics.cxx.o CMakeFiles/test_database_statistics.dir/test_common.cxx.o -o ../bin/test_database_statistics  ../lib/libsom.a 

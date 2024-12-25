@@ -1,0 +1,334 @@
+Start testing: Oct 07 16:26 EDT
+----------------------------------------------------------
+1/8 Testing: test_sample
+1/8 Test: test_sample
+Command: "/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build/bin/test_sample"
+Directory: /mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build
+"test_sample" start time: Oct 07 16:26 EDT
+Output:
+----------------------------------------------------------
+simple line: 5, 10, -2, 3
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_sample" end time: Oct 07 16:26 EDT
+"test_sample" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: test_database_statistics
+2/8 Test: test_database_statistics
+Command: "/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build/bin/test_database_statistics"
+Directory: /mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build
+"test_database_statistics" start time: Oct 07 16:26 EDT
+Output:
+----------------------------------------------------------
+dataset labels: 0 1 2
+iris means: 5.84333333333333, 3.054, 3.75866666666667, 1.19866666666667
+iris stds: 0.825301291785141, 0.432146580070544, 1.75852918340552, 0.760612618588172
+dataset labels: M B
+wdbc means: 14.1272917398946, 19.2896485061512, 91.9690333919157, 654.889103690686, 0.096360281195079, 0.104340984182777, 0.0887993158172232, 0.0489191458699472, 0.181161862917399, 0.0627976098418278, 0.405172056239016, 1.21685342706503, 2.86605922671353, 40.337079086116, 0.00704097891036907, 0.0254781388400703, 0.0318937163444639, 0.0117961370826011, 0.0205422987697715, 0.00379490386643234, 16.2691898066784, 25.677223198594, 107.261212653779, 880.583128295254, 0.132368594024605, 0.254265043936731, 0.272188483304042, 0.114606223198594, 0.290075571177505, 0.0839458172231985
+wdbc stds: 3.52095076071106, 4.29725463709042, 24.2776192930532, 351.60475406323, 0.0140517640665912, 0.0527663291253552, 0.0796497253460319, 0.0387687324614747, 0.0273901808642685, 0.00705415588153735, 0.277068941525365, 0.551163426903576, 2.02007709914552, 45.4510134156399, 0.00299987836711448, 0.017892435868282, 0.0301595231219705, 0.0061648607464717, 0.00825910438758814, 0.00264374475040474, 4.82899257606077, 6.140854318589, 33.5730015668259, 568.856458953267, 0.0228123569355446, 0.157198171094554, 0.208440874611706, 0.0656745545111932, 0.0618130785445548, 0.018045389308595
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"test_database_statistics" end time: Oct 07 16:26 EDT
+"test_database_statistics" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: test_database_normalize
+3/8 Test: test_database_normalize
+Command: "/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build/bin/test_database_normalize"
+Directory: /mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build
+"test_database_normalize" start time: Oct 07 16:26 EDT
+Output:
+----------------------------------------------------------
+dataset labels: 0 1 2
+iris sample 0: -0.90068117029781, 1.03205722448896, -1.34127240475983, -1.31297672726015
+iris sample 5: -0.537177558966855, 1.95766908501717, -1.17067529279208, -1.0500307872214
+iris sample 10: -0.537177558966855, 1.49486315475306, -1.28440670077058, -1.31297672726015
+dataset labels: M B
+wdbc sample 0: 1.09706398146998, -2.07333501469759, 1.26993368813994, 0.984374904803114, 1.56846632924343, 3.28351467098683, 2.65287398374317, 2.53247521640324, 2.21751500596464, 2.25574688529627, 2.48973392673762, -0.565265059068464, 2.83303086585518, 2.4875775569611, -0.214001646668954, 1.31686156839595, 0.72402615808036, 0.660819941428606, 1.14875666718618, 0.907083080997336, 1.88668962517928, -1.35929347376408, 2.30360062362256, 2.00123748932992, 1.30768627107154, 2.6166650235126, 2.10952634657226, 2.29607612756179, 2.75062224412495, 1.93701461237818
+wdbc sample 5: -0.476374665221343, -0.835335303420987, -0.387148067463317, -0.505650454483654, 2.23742148358942, 1.24433548639018, 0.866301595931547, 0.824655646449696, 1.00540179778533, 1.89000503845779, -0.255070293515905, -0.592661651917216, -0.321304185364051, -0.289258216662602, 0.156346702177152, 0.445543648646603, 0.160025197879214, -0.0691235536577116, 0.134118807348304, 0.486845839928615, -0.165498247116861, -0.313836332635365, -0.115009456217163, -0.244320207862265, 2.04851283483916, 1.72161644234705, 1.26324319635708, 0.905887786285116, 1.7540693875058, 2.24180160843264
+wdbc sample 10: 0.537556015047254, 0.919273309929692, 0.442010663341892, 0.406453253711167, -1.0176858312814, -0.713541851534351, -0.700684347306461, -0.404685551314783, -1.03547556176959, -0.826124335738061, -0.0926558426133296, -0.0541643832079764, -0.198041563306049, 0.00380455573790281, -1.00403367796083, -0.905921304365515, -0.69244186189571, -0.682113879864644, -0.719484642753962, -0.284786897947343, 0.604848764481689, 1.33577127478425, 0.492621647584935, 0.47361134336154, -0.625476537339829, -0.630828229401501, -0.605871969877782, -0.226209729310947, 0.0764308934894757, 0.0318188079504589
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"test_database_normalize" end time: Oct 07 16:26 EDT
+"test_database_normalize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: test_distance_function
+4/8 Test: test_distance_function
+Command: "/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build/bin/test_distance_function"
+Directory: /mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build
+"test_distance_function" start time: Oct 07 16:26 EDT
+Output:
+----------------------------------------------------------
+cell[0][0]: [cell | label counts: a:0 b:0 | values: -0.893259, 1.73826, -1.1797]
+cell[0][1]: [cell | label counts: a:0 b:0 | values: 0.0885712, -0.363776, -0.3983]
+cell[1][0]: [cell | label counts: a:0 b:0 | values: -0.234715, -1.43974, 0.432817]
+cell[1][1]: [cell | label counts: a:0 b:0 | values: 2.30447, -0.122636, 0.0154593]
+[sample | label: a | -5, -1, 2.5]
+cell[0][0]: 1.73826037986052, -0.893258708396503, 0.0885711706115432
+cell [0][0] distance: 7.15755095331755
+cell[1][0]: -1.17970328773162, -0.398300045331517, -0.363775610896062
+cell [0][1] distance: 4.81226771437124
+cell[1][0]: -1.43973701249902, -0.234715169222093, 2.30447256451043
+cell [1][0] distance: 3.64682936129692
+cell[1][1]: 0.432816580412273, 0.0154593309715393, -0.12263552044841
+cell [1][1] distance: 6.11758700161897
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_distance_function" end time: Oct 07 16:26 EDT
+"test_distance_function" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: test_get_bmu
+5/8 Test: test_get_bmu
+Command: "/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build/bin/test_get_bmu"
+Directory: /mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build
+"test_get_bmu" start time: Oct 07 16:26 EDT
+Output:
+----------------------------------------------------------
+cell[0][0]: [cell | label counts: a:0 b:0 c:0 | values: -0.893259, 1.73826, -1.1797, 0.0885712]
+cell[0][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.363776, -0.3983, -0.234715, -1.43974]
+cell[0][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.432817, 2.30447, -0.122636, 0.0154593]
+cell[0][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.266016, -0.113795, 1.01107, -1.44077]
+cell[0][4]: [cell | label counts: a:0 b:0 c:0 | values: 0.980569, 1.377, -0.230285, 0.480924]
+cell[1][0]: [cell | label counts: a:0 b:0 c:0 | values: -1.26691, 0.271005, 2.14076, 0.475369]
+cell[1][1]: [cell | label counts: a:0 b:0 c:0 | values: 0.246525, -1.08417, -2.38158, -0.436349]
+cell[1][2]: [cell | label counts: a:0 b:0 c:0 | values: -2.07241, -1.29544, -0.464024, -0.0570266]
+cell[1][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.27593, 1.49452, 0.566821, -2.30337]
+cell[1][4]: [cell | label counts: a:0 b:0 c:0 | values: 1.377, -1.18739, 0.079393, 0.107969]
+cell[2][0]: [cell | label counts: a:0 b:0 c:0 | values: 0.506951, 1.12559, -1.00805, 0.354829]
+cell[2][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.702668, 0.113451, -1.04113, -0.686599]
+cell[2][2]: [cell | label counts: a:0 b:0 c:0 | values: -2.55945, 0.94631, 0.790672, 0.680002]
+cell[2][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.716606, 0.477705, -0.66624, 0.0844801]
+cell[2][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.33876, 0.705921, -1.60176, 0.393248]
+cell[3][0]: [cell | label counts: a:0 b:0 c:0 | values: -0.601658, 1.83798, -0.0199424, 0.421248]
+cell[3][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.195309, -0.216272, -0.688253, 0.00473325]
+cell[3][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.42469, -0.200903, -0.757834, -2.2691]
+cell[3][3]: [cell | label counts: a:0 b:0 c:0 | values: -0.95657, 0.194815, -1.42374, -1.34537]
+cell[3][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.358772, 0.604724, 0.637806, -0.559486]
+cell[4][0]: [cell | label counts: a:0 b:0 c:0 | values: 0.056201, -0.107883, 0.0889739, -0.415847]
+cell[4][1]: [cell | label counts: a:0 b:0 c:0 | values: 1.884, -1.87701, -0.866173, 1.52518]
+cell[4][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.387493, -0.0527621, 0.112464, -0.886748]
+cell[4][3]: [cell | label counts: a:0 b:0 c:0 | values: -0.833716, 1.99693, 0.679221, 0.959657]
+cell[4][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.026457, 1.80955, 0.599105, 0.373661]
+[sample | label: a | -5, -1, 2.5, 3.2]
+bmu index: [y: 1, x: 0]
+[sample | label: a | 0.5, 0.3, -2.5, 1.2]
+bmu index: [y: 1, x: 3]
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"test_get_bmu" end time: Oct 07 16:26 EDT
+"test_get_bmu" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: test_neighborhood_function
+6/8 Test: test_neighborhood_function
+Command: "/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build/bin/test_neighborhood_function"
+Directory: /mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build
+"test_neighborhood_function" start time: Oct 07 16:26 EDT
+Output:
+----------------------------------------------------------
+cell[0][0]: [cell | label counts: a:0 b:0 c:0 | values: -0.893259, 1.73826, -1.1797, 0.0885712]
+cell[0][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.363776, -0.3983, -0.234715, -1.43974]
+cell[0][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.432817, 2.30447, -0.122636, 0.0154593]
+cell[0][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.266016, -0.113795, 1.01107, -1.44077]
+cell[0][4]: [cell | label counts: a:0 b:0 c:0 | values: 0.980569, 1.377, -0.230285, 0.480924]
+cell[1][0]: [cell | label counts: a:0 b:0 c:0 | values: -1.26691, 0.271005, 2.14076, 0.475369]
+cell[1][1]: [cell | label counts: a:0 b:0 c:0 | values: 0.246525, -1.08417, -2.38158, -0.436349]
+cell[1][2]: [cell | label counts: a:0 b:0 c:0 | values: -2.07241, -1.29544, -0.464024, -0.0570266]
+cell[1][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.27593, 1.49452, 0.566821, -2.30337]
+cell[1][4]: [cell | label counts: a:0 b:0 c:0 | values: 1.377, -1.18739, 0.079393, 0.107969]
+cell[2][0]: [cell | label counts: a:0 b:0 c:0 | values: 0.506951, 1.12559, -1.00805, 0.354829]
+cell[2][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.702668, 0.113451, -1.04113, -0.686599]
+cell[2][2]: [cell | label counts: a:0 b:0 c:0 | values: -2.55945, 0.94631, 0.790672, 0.680002]
+cell[2][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.716606, 0.477705, -0.66624, 0.0844801]
+cell[2][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.33876, 0.705921, -1.60176, 0.393248]
+cell[3][0]: [cell | label counts: a:0 b:0 c:0 | values: -0.601658, 1.83798, -0.0199424, 0.421248]
+cell[3][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.195309, -0.216272, -0.688253, 0.00473325]
+cell[3][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.42469, -0.200903, -0.757834, -2.2691]
+cell[3][3]: [cell | label counts: a:0 b:0 c:0 | values: -0.95657, 0.194815, -1.42374, -1.34537]
+cell[3][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.358772, 0.604724, 0.637806, -0.559486]
+cell[4][0]: [cell | label counts: a:0 b:0 c:0 | values: 0.056201, -0.107883, 0.0889739, -0.415847]
+cell[4][1]: [cell | label counts: a:0 b:0 c:0 | values: 1.884, -1.87701, -0.866173, 1.52518]
+cell[4][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.387493, -0.0527621, 0.112464, -0.886748]
+cell[4][3]: [cell | label counts: a:0 b:0 c:0 | values: -0.833716, 1.99693, 0.679221, 0.959657]
+cell[4][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.026457, 1.80955, 0.599105, 0.373661]
+theta([y: 1, x: 3], [y: 0, x: 0]): 0.0625
+theta([y: 1, x: 3], [y: 4, x: 3]): 0.125
+theta([y: 1, x: 3], [y: 1, x: 3]): 1
+theta([y: 2, x: 2], [y: 4, x: 5]): 0.03125
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_neighborhood_function" end time: Oct 07 16:26 EDT
+"test_neighborhood_function" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: test_get_neighbors
+7/8 Test: test_get_neighbors
+Command: "/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build/bin/test_get_neighbors"
+Directory: /mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build
+"test_get_neighbors" start time: Oct 07 16:26 EDT
+Output:
+----------------------------------------------------------
+cell[0][0]: [cell | label counts: a:0 b:0 c:0 | values: -0.893259, 1.73826, -1.1797, 0.0885712]
+cell[0][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.363776, -0.3983, -0.234715, -1.43974]
+cell[0][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.432817, 2.30447, -0.122636, 0.0154593]
+cell[0][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.266016, -0.113795, 1.01107, -1.44077]
+cell[0][4]: [cell | label counts: a:0 b:0 c:0 | values: 0.980569, 1.377, -0.230285, 0.480924]
+cell[1][0]: [cell | label counts: a:0 b:0 c:0 | values: -1.26691, 0.271005, 2.14076, 0.475369]
+cell[1][1]: [cell | label counts: a:0 b:0 c:0 | values: 0.246525, -1.08417, -2.38158, -0.436349]
+cell[1][2]: [cell | label counts: a:0 b:0 c:0 | values: -2.07241, -1.29544, -0.464024, -0.0570266]
+cell[1][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.27593, 1.49452, 0.566821, -2.30337]
+cell[1][4]: [cell | label counts: a:0 b:0 c:0 | values: 1.377, -1.18739, 0.079393, 0.107969]
+cell[2][0]: [cell | label counts: a:0 b:0 c:0 | values: 0.506951, 1.12559, -1.00805, 0.354829]
+cell[2][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.702668, 0.113451, -1.04113, -0.686599]
+cell[2][2]: [cell | label counts: a:0 b:0 c:0 | values: -2.55945, 0.94631, 0.790672, 0.680002]
+cell[2][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.716606, 0.477705, -0.66624, 0.0844801]
+cell[2][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.33876, 0.705921, -1.60176, 0.393248]
+cell[3][0]: [cell | label counts: a:0 b:0 c:0 | values: -0.601658, 1.83798, -0.0199424, 0.421248]
+cell[3][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.195309, -0.216272, -0.688253, 0.00473325]
+cell[3][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.42469, -0.200903, -0.757834, -2.2691]
+cell[3][3]: [cell | label counts: a:0 b:0 c:0 | values: -0.95657, 0.194815, -1.42374, -1.34537]
+cell[3][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.358772, 0.604724, 0.637806, -0.559486]
+cell[4][0]: [cell | label counts: a:0 b:0 c:0 | values: 0.056201, -0.107883, 0.0889739, -0.415847]
+cell[4][1]: [cell | label counts: a:0 b:0 c:0 | values: 1.884, -1.87701, -0.866173, 1.52518]
+cell[4][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.387493, -0.0527621, 0.112464, -0.886748]
+cell[4][3]: [cell | label counts: a:0 b:0 c:0 | values: -0.833716, 1.99693, 0.679221, 0.959657]
+cell[4][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.026457, 1.80955, 0.599105, 0.373661]
+[sample | label: a | -5, -1, 2.5, 3.2]
+bmu index: [y: 1, x: 0]
+
+
+testing neighbor radius 1
+neighbor_index: [y: 0, x: 0]
+neighbor_index: [y: 0, x: 1]
+neighbor_index: [y: 1, x: 0]
+neighbor_index: [y: 1, x: 1]
+neighbor_index: [y: 2, x: 0]
+neighbor_index: [y: 2, x: 1]
+
+
+testing neighbor radius 2
+neighbor_index: [y: 0, x: 0]
+neighbor_index: [y: 0, x: 1]
+neighbor_index: [y: 0, x: 2]
+neighbor_index: [y: 1, x: 0]
+neighbor_index: [y: 1, x: 1]
+neighbor_index: [y: 1, x: 2]
+neighbor_index: [y: 2, x: 0]
+neighbor_index: [y: 2, x: 1]
+neighbor_index: [y: 2, x: 2]
+neighbor_index: [y: 3, x: 0]
+neighbor_index: [y: 3, x: 1]
+neighbor_index: [y: 3, x: 2]
+
+
+testing neighbor radius -1
+neighbor_index: [y: 0, x: 0]
+neighbor_index: [y: 0, x: 1]
+neighbor_index: [y: 0, x: 2]
+neighbor_index: [y: 0, x: 3]
+neighbor_index: [y: 0, x: 4]
+neighbor_index: [y: 1, x: 0]
+neighbor_index: [y: 1, x: 1]
+neighbor_index: [y: 1, x: 2]
+neighbor_index: [y: 1, x: 3]
+neighbor_index: [y: 1, x: 4]
+neighbor_index: [y: 2, x: 0]
+neighbor_index: [y: 2, x: 1]
+neighbor_index: [y: 2, x: 2]
+neighbor_index: [y: 2, x: 3]
+neighbor_index: [y: 2, x: 4]
+neighbor_index: [y: 3, x: 0]
+neighbor_index: [y: 3, x: 1]
+neighbor_index: [y: 3, x: 2]
+neighbor_index: [y: 3, x: 3]
+neighbor_index: [y: 3, x: 4]
+neighbor_index: [y: 4, x: 0]
+neighbor_index: [y: 4, x: 1]
+neighbor_index: [y: 4, x: 2]
+neighbor_index: [y: 4, x: 3]
+neighbor_index: [y: 4, x: 4]
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"test_get_neighbors" end time: Oct 07 16:26 EDT
+"test_get_neighbors" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: test_update_cell
+8/8 Test: test_update_cell
+Command: "/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build/bin/test_update_cell"
+Directory: /mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw2_soms_redacted/build
+"test_update_cell" start time: Oct 07 16:26 EDT
+Output:
+----------------------------------------------------------
+cell[0][0]: [cell | label counts: a:0 b:0 c:0 | values: -0.893259, 1.73826, -1.1797, 0.0885712]
+cell[0][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.363776, -0.3983, -0.234715, -1.43974]
+cell[0][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.432817, 2.30447, -0.122636, 0.0154593]
+cell[0][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.266016, -0.113795, 1.01107, -1.44077]
+cell[0][4]: [cell | label counts: a:0 b:0 c:0 | values: 0.980569, 1.377, -0.230285, 0.480924]
+cell[1][0]: [cell | label counts: a:0 b:0 c:0 | values: -1.26691, 0.271005, 2.14076, 0.475369]
+cell[1][1]: [cell | label counts: a:0 b:0 c:0 | values: 0.246525, -1.08417, -2.38158, -0.436349]
+cell[1][2]: [cell | label counts: a:0 b:0 c:0 | values: -2.07241, -1.29544, -0.464024, -0.0570266]
+cell[1][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.27593, 1.49452, 0.566821, -2.30337]
+cell[1][4]: [cell | label counts: a:0 b:0 c:0 | values: 1.377, -1.18739, 0.079393, 0.107969]
+cell[2][0]: [cell | label counts: a:0 b:0 c:0 | values: 0.506951, 1.12559, -1.00805, 0.354829]
+cell[2][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.702668, 0.113451, -1.04113, -0.686599]
+cell[2][2]: [cell | label counts: a:0 b:0 c:0 | values: -2.55945, 0.94631, 0.790672, 0.680002]
+cell[2][3]: [cell | label counts: a:0 b:0 c:0 | values: 0.716606, 0.477705, -0.66624, 0.0844801]
+cell[2][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.33876, 0.705921, -1.60176, 0.393248]
+cell[3][0]: [cell | label counts: a:0 b:0 c:0 | values: -0.601658, 1.83798, -0.0199424, 0.421248]
+cell[3][1]: [cell | label counts: a:0 b:0 c:0 | values: -0.195309, -0.216272, -0.688253, 0.00473325]
+cell[3][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.42469, -0.200903, -0.757834, -2.2691]
+cell[3][3]: [cell | label counts: a:0 b:0 c:0 | values: -0.95657, 0.194815, -1.42374, -1.34537]
+cell[3][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.358772, 0.604724, 0.637806, -0.559486]
+cell[4][0]: [cell | label counts: a:0 b:0 c:0 | values: 0.056201, -0.107883, 0.0889739, -0.415847]
+cell[4][1]: [cell | label counts: a:0 b:0 c:0 | values: 1.884, -1.87701, -0.866173, 1.52518]
+cell[4][2]: [cell | label counts: a:0 b:0 c:0 | values: 0.387493, -0.0527621, 0.112464, -0.886748]
+cell[4][3]: [cell | label counts: a:0 b:0 c:0 | values: -0.833716, 1.99693, 0.679221, 0.959657]
+cell[4][4]: [cell | label counts: a:0 b:0 c:0 | values: -0.026457, 1.80955, 0.599105, 0.373661]
+[sample | label: a | -5, -1, 2.5, 3.2]
+bmu index: [y: 1, x: 0]
+
+
+testing neighbor radius 1
+neighbor_index: [y: 0, x: 0]
+neighbor_index: [y: 0, x: 1]
+neighbor_index: [y: 1, x: 0]
+neighbor_index: [y: 1, x: 1]
+neighbor_index: [y: 2, x: 0]
+neighbor_index: [y: 2, x: 1]
+[cell | label counts: a:1 b:0 c:0 | values: -1.3103, -1.18684, 1.08276, 2.45853]
+bmu cell 1: -1.31029642162155, -1.18683742258049, 1.08275832509997, 2.45853427519599
+[cell | label counts: a:1 b:1 c:0 | values: -2.41720749513508, -1.13078619580635, 1.50793082756998, 2.68097399263719]
+bmu cell 2: -2.41720749513508, -1.13078619580635, 1.50793082756998, 2.68097399263719
+[cell | label counts: a:1 b:2 c:0 | values: -3.19204524659456, -1.09155033706444, 1.80555157929899, 2.83668179484604]
+bmu cell 3: -3.19204524659456, -1.09155033706444, 1.80555157929899, 2.83668179484604
+[cell | label counts: a:0 b:0 c:0 | values: 1.40134736086749, -0.898595772976678, 0.209142612080966, -0.960718123345039]
+cell 2: 1.40134736086749, -0.898595772976678, 0.209142612080966, -0.960718123345039
+[cell | label counts: a:0 b:0 c:0 | values: -0.7814028167473, -0.754701248510862, -0.128944439868188, -0.298935308637505]
+cell 3: -0.7814028167473, -0.754701248510862, -0.128944439868188, -0.298935308637505
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"test_update_cell" end time: Oct 07 16:26 EDT
+"test_update_cell" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 07 16:26 EDT

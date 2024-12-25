@@ -1,0 +1,9 @@
+test_sample 6 0.0037697
+test_database_statistics 6 0.0172126
+test_database_normalize 6 0.0114897
+test_distance_function 6 0.007388
+test_get_bmu 5 0.0108019
+test_neighborhood_function 6 0.00701972
+test_get_neighbors 5 0.00999262
+test_update_cell 5 0.0102143
+---

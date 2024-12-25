@@ -1,0 +1,10 @@
+include_directories(${DSCI_650_HW1_SOURCE_DIR}/src)
+
+add_executable(test_tensor test_tensor.cxx)
+target_link_libraries(test_tensor neural_network)
+
+add_executable(test_convolution_2d test_convolution_2d.cxx test_common.cxx)
+target_link_libraries(test_convolution_2d neural_network)
+
+add_executable(test_convolution_2d_large test_convolution_2d_large.cu test_common.cxx)
+target_link_libraries(test_convolution_2d_large neural_network)

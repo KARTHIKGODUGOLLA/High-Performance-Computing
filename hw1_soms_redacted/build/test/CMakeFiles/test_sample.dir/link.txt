@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_sample.dir/test_sample.cxx.o CMakeFiles/test_sample.dir/test_common.cxx.o -o ../bin/test_sample  ../lib/libsom.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_get_bmu.dir/test_get_bmu.cxx.o CMakeFiles/test_get_bmu.dir/test_common.cxx.o -o ../bin/test_get_bmu  ../lib/libsom.a 

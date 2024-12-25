@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libsom.a CMakeFiles/som.dir/dataset.cxx.o CMakeFiles/som.dir/sample.cxx.o CMakeFiles/som.dir/som.cxx.o CMakeFiles/som.dir/cell.cxx.o
+/usr/bin/ranlib ../lib/libsom.a

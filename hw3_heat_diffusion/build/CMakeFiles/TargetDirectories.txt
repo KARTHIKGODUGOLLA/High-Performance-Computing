@@ -1,0 +1,8 @@
+/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw3_heat_diffusion/hw3_heat_diffusion/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw3_heat_diffusion/hw3_heat_diffusion/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw3_heat_diffusion/hw3_heat_diffusion/build/src/CMakeFiles/heat_diffusion.dir
+/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw3_heat_diffusion/hw3_heat_diffusion/build/src/CMakeFiles/heat_diffusion_mpi.dir
+/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw3_heat_diffusion/hw3_heat_diffusion/build/src/CMakeFiles/heat_diffusion_2d.dir
+/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw3_heat_diffusion/hw3_heat_diffusion/build/src/CMakeFiles/heat_diffusion_bonus.dir
+/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw3_heat_diffusion/hw3_heat_diffusion/build/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Karthik_Godugolla/RIT/HPDS/hw3_heat_diffusion/hw3_heat_diffusion/build/src/CMakeFiles/rebuild_cache.dir

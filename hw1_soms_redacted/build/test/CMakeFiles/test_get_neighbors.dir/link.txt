@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_get_neighbors.dir/test_get_neighbors.cxx.o CMakeFiles/test_get_neighbors.dir/test_common.cxx.o -o ../bin/test_get_neighbors  ../lib/libsom.a 
